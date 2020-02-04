@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bill Splitter</title>
+	<!-- css / bootswatch-->
+	<link rel="stylesheet" type="text/css" href="https://bootswatch.com/4/lumen/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/styles/style.css">
+	<!-- JS -->
+	<script type="text/javascript" src="assets/scripts/script.js" defer></script>
+</head>
+<body class="bg-light">
+	
+	<div id="main" class="landing-page d-flex justify-content-center align-items-center vh-100 flex-direction-column">
+		<div>	
+			<h1>Bill splitter</h1>
+		</div>
+		<div class="content d-flex justify-content-space-between align-items-center">
+			<div class="box-input">
+					<div class="form-group">
+						<label for="name">Enter bill: </label>
+						<input type="text" name="name" id="bill" class="form-control">
+						<label for="name">How many: </label>
+						<input type="text" name="name" id="noSplit" class="form-control">
+					</div>
+					<button type="button" class="btn btn-primary" id="split-btn">Split</button>
+				
+			</div>
+			<div class="box-display">
+				<h5>Your share is:</h5>
+				<h1><span class="splitAmount"></span></h1>
+			</div>
+		</div>
+
+		
+	</div>
+</body>
+</html>
