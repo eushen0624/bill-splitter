@@ -18,15 +18,15 @@
 			<form action="">
 				<div class="input-form d-flex flex-direction-column">
 					<label>Enter bill:</label>
-					<input type="number" name ="amount">
+					<input type="number" name ="amount" id="amount">
 					<label>How many times: </label>
-					<input type="number" name ="no-split">
+					<input type="number" name ="no-split" id="noSplit">
 				</div>
 				<button class="btn-split bg-info border-0 my-3 px-3 py-2" id ="btn-split">Split</button>
 			</form>
 		</div>
-		<div class="split-output box ">
-			<h1>You share is: <span></span> </h1>
+		<div class="split-output box " >
+			<h1>You share is: <span id="result"></span></h1>
 		</div>
 	</div>
 </body>
